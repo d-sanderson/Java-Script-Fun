@@ -27,7 +27,7 @@ function utilCalc(pnm, gas, water) {
 	return result;
 	}}
 
-
+console.log(utilCalc(20,30,50));
 
 
 //the value of const does not change if you don't need to reassign use const
