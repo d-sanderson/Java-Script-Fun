@@ -12,22 +12,18 @@ const person = {
 
 	mydeets() {
 		console.log('Hi, Im' + this.name +'!' + 'I weigh' + this.weight + ' lbs.' + 'my eyes are '+ this.eyes + ' and I am' + this.age + ' old')
-	}
+	},
 
 };
 
 
 
-function utilCalc(pnm, gas, water) {
-	this.pnm = pnm;
-	this.gas = gas;
-	this.water=water;
-	this.calc = function() {
-		result = (pnm + gas + water) / 3;
+function utilCalc(pnm, gas, water, internet) {
+	result = (pnm + gas + water +internet) / 3;
 	return result;
-	}}
+}
 
-console.log(utilCalc(20,30,50));
+utilCalc();
 
 
 //the value of const does not change if you don't need to reassign use const
