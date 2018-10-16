@@ -24,8 +24,7 @@ function utilCalc(pnm, gas, water) {
 	this.water=water;
 	this.calc = function() {
 		result = (pnm + gas + water) / 3;
-		console.log(result)
-
+	return result;
 	}}
 
 
