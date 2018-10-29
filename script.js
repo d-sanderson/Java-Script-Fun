@@ -20,12 +20,12 @@ const person = {
 
 function utilCalc(pnm, gas, water) {
 	internet = 32;
-	result = (pnm + gas + water +internet) / 3;
+	result = (pnm + gas + water + internet) / 3;
 	return result;
 }
 
 function greeter(name, age, eyecolor, weight) {
-	console.log('Hello ' + name + 'you have ' + eyecolor + 'eyes and weigh ' + weight + ' lbs.')
+	return 'Hello ' + name + 'you have ' + eyecolor + 'eyes and weigh ' + weight + ' lbs.';
 }
 
 
