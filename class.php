@@ -6,6 +6,8 @@ $teachers = array('George', 'Chloe','Brent', 'Daniel', 'Karen', 'Andrea');
 for($i = 0; $i < count($students); $i++) {
 echo $students;
 
+
+//I changed a line
 }
 
 ?>

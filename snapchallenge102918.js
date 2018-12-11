@@ -415,3 +415,19 @@ var sum = newArray.reduce( function(total, amount){
 });
 
 console.log(sum);
+
+
+/* Snap Challenge 110118
+ * turn the array into a string using reduce in javascript
+ */
+
+const wordArray =	["Deflector", "power", "at", "maximum.", "Energy", "discharge", "in", "six", "seconds.", "Warp", "reactor", "core", "primary", "coolant", "failure.", "Fluctuate", "phaser", "resonance", "frequencies.", "Resistance", "is", "futile.", "Recommend", "we", "adjust", "shield", "harmonics", "to", "the", "upper", "EM", "band", "when", "proceeding.", "These", "appear", "to", "be", "some", "kind", "of", "power-wave-guide", "conduits", "which", "allow", "them", "to", "work", "collectively", "as", "they", "perform", "ship", "functions.", "Increase", "deflector", "modulation", "to", "upper", "frequency", "band."];
+
+const wordString = wordArray.reduce( (first, second) => first + ' '+ second);
+
+console.log(wordString);
+
+
+const wordString2 = wordArray.reduce(function(first, second) {return first + ' '+ second});
+
+console.log(wordString2);
