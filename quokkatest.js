@@ -1,0 +1,1 @@
+let animas = [cat, dog, parrot, cow, ferret, elephant, ]
